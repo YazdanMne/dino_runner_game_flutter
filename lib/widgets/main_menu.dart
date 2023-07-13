@@ -36,7 +36,7 @@ class MainMenu extends StatelessWidget {
                 spacing: 10,
                 children: [
                   const Text(
-                    'Dino Run',
+                    'فرار دایناسور',
                     style: TextStyle(
                       fontSize: 50,
                       color: Colors.white,
@@ -49,7 +49,7 @@ class MainMenu extends StatelessWidget {
                       gameRef.overlays.add(Hud.id);
                     },
                     child: const Text(
-                      'Play',
+                      'شروع',
                       style: TextStyle(
                         fontSize: 30,
                       ),
@@ -61,7 +61,7 @@ class MainMenu extends StatelessWidget {
                       gameRef.overlays.add(SettingsMenu.id);
                     },
                     child: const Text(
-                      'Settings',
+                      'تنظیمات',
                       style: TextStyle(
                         fontSize: 30,
                       ),

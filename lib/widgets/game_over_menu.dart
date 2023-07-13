@@ -39,17 +39,17 @@ class GameOverMenu extends StatelessWidget {
                 child: Wrap(
                   direction: Axis.vertical,
                   crossAxisAlignment: WrapCrossAlignment.center,
-                  spacing: 10,
+                  spacing: 5,
                   children: [
                     const Text(
-                      'Game Over',
+                      '!!حواست کجاست',
                       style: TextStyle(fontSize: 40, color: Colors.white),
                     ),
                     Selector<PlayerData, int>(
                       selector: (_, playerData) => playerData.currentScore,
                       builder: (_, score, __) {
                         return Text(
-                          'You Score: $score',
+                          '$score : امتیاز شما',
                           style: const TextStyle(
                               fontSize: 40, color: Colors.white),
                         );
@@ -57,7 +57,7 @@ class GameOverMenu extends StatelessWidget {
                     ),
                     ElevatedButton(
                       child: const Text(
-                        'Restart',
+                        'شروع دوباره',
                         style: TextStyle(
                           fontSize: 30,
                         ),
@@ -73,7 +73,7 @@ class GameOverMenu extends StatelessWidget {
                     ),
                     ElevatedButton(
                       child: const Text(
-                        'Exit',
+                        'خروج',
                         style: TextStyle(
                           fontSize: 30,
                         ),

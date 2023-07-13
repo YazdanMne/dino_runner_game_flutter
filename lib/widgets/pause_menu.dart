@@ -46,7 +46,7 @@ class PauseMenu extends StatelessWidget {
                         selector: (_, playerData) => playerData.currentScore,
                         builder: (_, score, __) {
                           return Text(
-                            'Score: $score',
+                            'امتیاز: $score',
                             style: const TextStyle(
                                 fontSize: 40, color: Colors.white),
                           );
@@ -61,7 +61,7 @@ class PauseMenu extends StatelessWidget {
                         AudioManager.instance.resumeBgm();
                       },
                       child: const Text(
-                        'Resume',
+                        'ادامه',
                         style: TextStyle(
                           fontSize: 30,
                         ),
@@ -77,7 +77,7 @@ class PauseMenu extends StatelessWidget {
                         AudioManager.instance.resumeBgm();
                       },
                       child: const Text(
-                        'Restart',
+                        'شروع دوباره',
                         style: TextStyle(
                           fontSize: 30,
                         ),
@@ -92,7 +92,7 @@ class PauseMenu extends StatelessWidget {
                         AudioManager.instance.resumeBgm();
                       },
                       child: const Text(
-                        'Exit',
+                        'خروج',
                         style: TextStyle(
                           fontSize: 30,
                         ),

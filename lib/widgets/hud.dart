@@ -34,8 +34,8 @@ class Hud extends StatelessWidget {
                   selector: (_, playerData) => playerData.currentScore,
                   builder: (_, score, __) {
                     return Text(
-                      'Score: $score',
-                      style: const TextStyle(fontSize: 20, color: Colors.white),
+                      'امتیاز: $score',
+                      style: const TextStyle(fontSize: 30, color: Colors.white),
                     );
                   },
                 ),
@@ -43,8 +43,8 @@ class Hud extends StatelessWidget {
                   selector: (_, playerData) => playerData.highScore,
                   builder: (_, highScore, __) {
                     return Text(
-                      'High: $highScore',
-                      style: const TextStyle(color: Colors.white),
+                      'رکورد: $highScore',
+                      style: const TextStyle(color: Colors.white, fontSize: 20),
                     );
                   },
                 ),

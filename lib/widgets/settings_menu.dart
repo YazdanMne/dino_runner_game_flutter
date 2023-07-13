@@ -43,7 +43,7 @@ class SettingsMenu extends StatelessWidget {
                       builder: (context, bgm, __) {
                         return SwitchListTile(
                           title: const Text(
-                            'Music',
+                            'موسیقی',
                             style: TextStyle(
                               fontSize: 30,
                               color: Colors.white,
@@ -68,7 +68,7 @@ class SettingsMenu extends StatelessWidget {
                       builder: (context, sfx, __) {
                         return SwitchListTile(
                           title: const Text(
-                            'Effects',
+                            'جلوه ها',
                             style: TextStyle(
                               fontSize: 30,
                               color: Colors.white,

@@ -92,9 +92,9 @@ flutter:
         - asset: assets/fonts/Audiowide/Audiowide-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+    - family: Neshan
+      fonts:
+        - asset: assets/fonts/neshan.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #

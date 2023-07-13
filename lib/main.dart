@@ -56,7 +56,7 @@ class DinoRunApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Dino Run',
       theme: ThemeData(
-        fontFamily: 'Audiowide',
+        fontFamily: 'Neshan',
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
         // Settings up some default theme for elevated buttons.
