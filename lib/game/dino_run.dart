@@ -189,6 +189,8 @@ class DinoRun extends FlameGame with TapDetector, HasCollisionDetection {
         }
         pauseEngine();
         break;
+      case AppLifecycleState.hidden:
+      // TODO: Handle this case.
     }
     super.lifecycleStateChange(state);
   }

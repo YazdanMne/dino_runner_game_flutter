@@ -1,4 +1,4 @@
-package com.example.dino_runner_game
+package com.yazdancode.dinorunerflutter
 
 import io.flutter.embedding.android.FlutterActivity
 
